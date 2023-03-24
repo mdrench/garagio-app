@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="garage_75_black"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <clipPath id="door">
+    <rect x="13" y="21" width="24" height="21" />
+  </clipPath>
+  <path style="fill:#000000;fill-opacity:1;stroke:none"
+     d="M 12,42 H 9 V 18 H 6 v -3 l 18,-9 18,9 v 3 H 39 V 42 H 36 V 21 H 12 Z" />
+  <g clip-path="url(#door)">
+    <g id="segments" transform="translate(0 0)">
+      <animateTransform
+        id="op"
+        attributeName="transform"
+        attributeType="XML"
+        type="translate"
+        from="0 -10"
+        to="0 0"
+        dur="3s"
+	begin="1s;op.end+1s" />
+
+      <rect style="fill:#000000;fill-opacity:1;stroke:none"
+         width="22" height="4" x="13" y="22" />
+      <rect style="fill:#000000;fill-opacity:1;stroke:none"
+         width="22" height="4" x="13" y="27" />
+      <rect style="fill:#000000;fill-opacity:1;stroke:none"
+         width="22" height="4" x="13" y="32" />
+    </g>
+  </g>
+</svg>

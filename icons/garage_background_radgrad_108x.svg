@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="108"
+   height="108"
+   viewBox="0 0 108 108"
+   version="1.1"
+   id="garage_background_gradient"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" id="rg1" cx="-48.232243" cy="97.854874" fx="-48.232243" fy="97.854874" r="54"
+       gradientTransform="matrix(9.340215e-7,4.0000001,-4.0058696,0,391.9939,192.92896)" />
+      <stop offset="0.3" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#dfd3c6" />
+    </radialGradient>
+  </defs>
+  <g>
+    <rect fill="url(#rg1)" width="108" height="108" x="0" y="0" />
+  </g>
+</svg>

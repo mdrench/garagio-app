@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Garagio</string>
+    <string name="back_button">Back</string>
+    <string name="error_button">Error</string>
+    <string name="settings_button">Settings</string>
+    <!-- GaragioApp/HomeScreen -->
+    <string name="temperature">Temperature</string>
+    <string name="degrees_f">%.1f &#176;F</string>
+    <string name="temp_not_available">&#8212; &#176;F</string>
+    <string name="garage_door_1">Garage Door 1</string>
+    <string name="garage_door_2">Garage Door 2</string>
+    <string name="garage_door_state_open">Open</string>
+    <string name="garage_door_state_closed">Closed</string>
+    <string name="garage_door_state_opening">Opening</string>
+    <string name="garage_door_state_closing">Closing</string>
+    <string name="garage_door_state_unknown">Unknown</string>
+    <string name="close_door_failed">Close Door request failed.</string>
+    <string name="open_door_failed">Open Door request failed.</string>
+    <string name="no_internet">⚠️ You aren’t connected to the internet</string>
+    <!-- GaragioApp/AccountSettings -->
+    <string name="settings">Account Settings</string>
+    <string name="settings_base_url">Base URL</string>
+    <string name="settings_username">Username</string>
+    <string name="settings_password">Password</string>
+    <string name="settings_show_password_button">Show password</string>
+    <string name="settings_hide_password_button">Hide password</string>
+    <string name="settings_edit_password_button">Edit password</string>
+    <string name="settings_cancel_button">Cancel</string>
+    <string name="settings_save_button">Save</string>
+    <!-- GaragioApp/Error -->
+    <string name="error">Error</string>
+    <string name="error_account_error_desc">An error occurred while configuring the Base URL or Authentication header for the Garagio service.</string>
+    <string name="error_auth_error_desc">The Garagio service responded with an authorization error.</string>
+    <string name="error_proto_error_desc">An unexpected response was received from the Garagio service.</string>
+    <string name="error_network_error_desc">A network error occurred while attempting to connect to the Garagio service.</string>
+    <string name="error_offline_error_desc">This device is not connected to the internet.</string>
+    <string name="error_other_error_desc">An unknown error occurred.</string>
+    <string name="error_close_button">Close</string>
+</resources>
