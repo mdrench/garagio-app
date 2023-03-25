@@ -33,7 +33,7 @@ class GaragioWebService: GaragioApi {
         checkNotNull(reqBuilder) { "Unable to construct Auth header from username/password." }
         statusReq = reqBuilder?.url("$baseUrl/")?.build()
         checkNotNull(statusReq) { "Unable to parse base URL." }
-        door0OpenReq = reqBuilder?.url("$baseUrl/door1/open")?.post(empty)?.build()
+        door0OpenReq = reqBuilder?.url("$baseUrl/door0/open")?.post(empty)?.build()
         door1OpenReq = reqBuilder?.url("$baseUrl/door1/open")?.post(empty)?.build()
         door0CloseReq = reqBuilder?.url("$baseUrl/door0/close")?.post(empty)?.build()
         door1CloseReq = reqBuilder?.url("$baseUrl/door1/close")?.post(empty)?.build()
